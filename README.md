@@ -10,7 +10,7 @@ For each es un bloque de lenguajes para recorrer elementos de una colección.
 
 Es un conjunto de claves, colección de valores y pares de entradas. Representa diccionarios o propiedades, almacenar en memoria tablas de bases de datos, cachés, etc.
 
-```
+```js
 // Declaración de un Map (un HashMap) con clave "Integer" y Valor "String". Las claves pueden ser de cualquier tipo de objetos, aunque los más utilizados como clave son los objetos predefinidos de Java como String, Integer, Double ... !!!!CUIDADO los Map no permiten datos atómicos
 Map<Integer, String> nombreMap = new HashMap<Integer, String>();
 nombreMap.size(); // Devuelve el numero de elementos del Map
@@ -23,3 +23,10 @@ nombreMap.containsKey(K clave); // Devuelve true si en el map hay una clave que 
 nombreMap.containsValue(V valor); // Devuelve true si en el map hay un Valor que coincide con V
 nombreMap.values(); // Devuelve una "Collection" con los valores del Map
 ```
+
+# FILTER
+
+Es un método que toma una función posllamada *<u>(es una función que se pasa a otra con un argumento para luego invocarse dentro de una función externa y así completar una rutina o acción</u>)* para que cada elemento el que repite dentro de un arreglo.
+
+`let greaterTen = numbers.filter(number => { number > 10 }); 3console.log(greaterTen); // [] 4 5// with return 6let greaterTen = numbers.filter(number => number > 10 ); // return implicito 7console.log(greaterTen); // [23, 12, 45, 78, 11, 10.1, 84] 8 9// ES5 10var greaterTen = numbers.filter(function(){  11  number > 10  12}); 13console.log(greaterTen); // [] 14 15// with return 16var greaterTen = numbers.filter(function(){  17  return number > 10  18}); 19console.log(greaterTen);  // [23, 12, 45, 78, 11, 10.1, 84]`
+
