@@ -32,3 +32,5 @@ var greaterTen = numbers.filter(function () {
     return number > 10
 });
 console.log(greaterTen);  // [23, 12, 45, 78, 11, 10.1, 84]
+
+str.search(expresionregular)

@@ -30,3 +30,9 @@ Es un método que toma una función posllamada *<u>(es una función que se pasa 
 
 `let greaterTen = numbers.filter(number => { number > 10 }); 3console.log(greaterTen); // [] 4 5// with return 6let greaterTen = numbers.filter(number => number > 10 ); // return implicito 7console.log(greaterTen); // [23, 12, 45, 78, 11, 10.1, 84] 8 9// ES5 10var greaterTen = numbers.filter(function(){  11  number > 10  12}); 13console.log(greaterTen); // [] 14 15// with return 16var greaterTen = numbers.filter(function(){  17  return number > 10  18}); 19console.log(greaterTen);  // [23, 12, 45, 78, 11, 10.1, 84]`
 
+# SEARCH
+
+Es un método que ejecuta una búsqueda que encaje entre una expresión regular y el objeto(texto).
+
+`str.search(expresionregular)`
+
