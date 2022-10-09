@@ -53,3 +53,10 @@ while (x < 10) { // "x < 10" es la condición del bucle
     // hacer cosas
     x++;
 }
+
+var myFunc;
+if (num === 0) {
+    myFunc = function (theObject) {
+        theObject.make = 'Toyota';
+    }
+}

@@ -70,3 +70,16 @@ while (x < 10) { // "x < 10" es la condición del bucle
    x++;
 }
 ```
+
+# FUNCIÓN SUCIA
+
+Es una función que no vamos a utilizar varias veces.
+
+```js
+var myFunc;
+if (num === 0) {
+  myFunc = function(theObject) {
+    theObject.make = 'Toyota';
+  }
+}
+```
