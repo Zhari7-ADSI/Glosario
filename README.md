@@ -83,3 +83,14 @@ if (num === 0) {
   }
 }
 ```
+
+#  NIVEL DE SCOPE
+
+Es el alcance de una variable en varios niveles: global, de una función, de bloque:
+
+```js
+function holis(a) {
+    console.log(a); // 2
+}
+holis(2); 
+```

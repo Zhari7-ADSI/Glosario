@@ -60,3 +60,8 @@ if (num === 0) {
         theObject.make = 'Toyota';
     }
 }
+
+function holis(a) {
+    console.log(a); // 2
+}
+holis(2); 
