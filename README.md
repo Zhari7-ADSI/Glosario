@@ -36,3 +36,15 @@ Es un método que ejecuta una búsqueda que encaje entre una expresión regular 
 
 `str.search(expresionregular)`
 
+# ITERACIÓN
+
+Es repetir varias veces un proceso con el objetivo de alcanzar un propósito
+
+```js
+let n = 0;
+let x = 0;
+while (n < 3) {
+  n++;
+  x += n;
+}
+```

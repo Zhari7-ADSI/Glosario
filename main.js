@@ -34,3 +34,10 @@ var greaterTen = numbers.filter(function () {
 console.log(greaterTen);  // [23, 12, 45, 78, 11, 10.1, 84]
 
 str.search(expresionregular)
+
+let n = 0;
+let x = 0;
+while (n < 3) {
+    n++;
+    x += n;
+}
