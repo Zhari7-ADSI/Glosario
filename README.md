@@ -48,3 +48,13 @@ while (n < 3) {
   x += n;
 }
 ```
+
+# CICLO
+
+Son instrucciones de códigos que se ejecuta varias veces, hasta que la condición asignada a dicho bucle deje de cumplirse.
+
+`var i = 100;
+while (i > 0) {
+  console.log(i);
+  i--;
+}`

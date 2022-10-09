@@ -41,3 +41,9 @@ while (n < 3) {
     n++;
     x += n;
 }
+
+var i = 100;
+while (i > 0) {
+  console.log(i);
+  i--;
+}
