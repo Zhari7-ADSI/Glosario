@@ -158,3 +158,9 @@ console.log(str[10]); // e
 Es una alternativa compacta a una expresión de función tradicional, pero es limitada y no se puede utilizar en todas las situaciones. 
 
 `function ask(question, yes, no) {  if (confirm(question)) yes();  else no(); } ask(  "Do you agree?",  *() => alert("You agreed."),  () => alert("You canceled the execution.")* );`
+
+# FUNCIONES EXPRESIVAS
+
+En la expresión de función, la declaración se inicia con la palabra reservada var, donde se generará una variable que guardará una función anónima.
+
+`var nombre =  function(nombre){    			    		   console.log(`Hola ${nombre}`) } nombre(‘Diego’);`

@@ -115,3 +115,9 @@ ask(
     () => alert("You agreed."), 
     () => alert("You canceled the execution.")
 );
+
+var nombre = function(nombre){
+    console.log(`Hola ${nombre}`)
+}
+
+nombre("Diego");
