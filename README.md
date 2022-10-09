@@ -38,7 +38,7 @@ Es un método que ejecuta una búsqueda que encaje entre una expresión regular 
 
 # ITERACIÓN
 
-Es repetir varias veces un proceso con el objetivo de alcanzar un propósito
+Es repetir varias veces un proceso con el objetivo de alcanzar un propósito.
 
 ```js
 let n = 0;
@@ -58,3 +58,15 @@ while (i > 0) {
   console.log(i);
   i--;
 }`
+
+# FUNCIÓN LIMPIA
+
+Es una función que vamos a utilizar varias veces.
+
+```js
+var x = 0;
+while (x < 10) { // "x < 10" es la condición del bucle
+   // hacer cosas
+   x++;
+}
+```

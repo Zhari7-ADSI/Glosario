@@ -44,6 +44,12 @@ while (n < 3) {
 
 var i = 100;
 while (i > 0) {
-  console.log(i);
-  i--;
+    console.log(i);
+    i--;
+}
+
+var x = 0;
+while (x < 10) { // "x < 10" es la condición del bucle
+    // hacer cosas
+    x++;
 }
