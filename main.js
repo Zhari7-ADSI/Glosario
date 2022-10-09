@@ -64,4 +64,21 @@ if (num === 0) {
 function holis(a) {
     console.log(a); // 2
 }
-holis(2); 
+holis(2);
+
+const miFuncion = () => {
+    let miValor = 2;
+    console.log(miValor);
+
+    const funcionHija = () => {
+        console.log(miValor += 1);
+    }
+
+    return funcionHija;
+}
+
+const resultado = miFuncion();
+console.log(resultado);
+resultado();
+resultado();
+resultado();
