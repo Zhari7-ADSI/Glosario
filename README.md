@@ -137,3 +137,18 @@ let numbers = [0, 1, 2, 5, 10];
 let cube = map(f,numbers);
 console.log(cube);
 ```
+
+# SEPARADORES
+
+Es una división de cadenas de textos, se emplea un separador que puede ser solo un carácter, otra cadena o una expresión regular.
+
+```js
+let str = "¡Si, Tu puedes hacerlo!";
+
+console.log(str[0]); // ¡
+console.log(str[1]); // S
+console.log(str[2]); // i
+console.log(str[3]); // ,
+...
+console.log(str[10]); // e
+```
