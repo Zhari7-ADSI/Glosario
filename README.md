@@ -164,3 +164,9 @@ Es una alternativa compacta a una expresión de función tradicional, pero es li
 En la expresión de función, la declaración se inicia con la palabra reservada var, donde se generará una variable que guardará una función anónima.
 
 `var nombre =  function(nombre){    			    		   console.log(`Hola ${nombre}`) } nombre(‘Diego’);`
+
+# FUNCIONES DECLARADAS
+
+Se utiliza la palabra reservada function al inicio para poder declarar la función.
+
+`function saludar(nombre) { console.log(`Hola ${nombre}`); } saludar('Diego'); `

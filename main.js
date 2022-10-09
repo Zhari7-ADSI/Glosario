@@ -106,18 +106,24 @@ console.log(str[3]); // ,
 ...
 console.log(str[10]); // e
 
-function ask(question, yes, no) { 
-    if (confirm(question)) yes(); 
-    else no(); 
-} 
+function ask(question, yes, no) {
+    if (confirm(question)) yes();
+    else no();
+}
 ask(
     "Do you agree?",
-    () => alert("You agreed."), 
+    () => alert("You agreed."),
     () => alert("You canceled the execution.")
 );
 
-var nombre = function(nombre){
+var nombre = function (nombre) {
     console.log(`Hola ${nombre}`)
 }
 
 nombre("Diego");
+
+function saludar(nombre) {
+    console.log(`Hola ${nombre}`);
+}
+
+saludar('Diego');
