@@ -105,3 +105,13 @@ console.log(str[2]); // i
 console.log(str[3]); // ,
 ...
 console.log(str[10]); // e
+
+function ask(question, yes, no) { 
+    if (confirm(question)) yes(); 
+    else no(); 
+} 
+ask(
+    "Do you agree?",
+    () => alert("You agreed."), 
+    () => alert("You canceled the execution.")
+);

@@ -152,3 +152,9 @@ console.log(str[3]); // ,
 ...
 console.log(str[10]); // e
 ```
+
+# FUNCIONES FLECHAS
+
+Es una alternativa compacta a una expresión de función tradicional, pero es limitada y no se puede utilizar en todas las situaciones. 
+
+`function ask(question, yes, no) {  if (confirm(question)) yes();  else no(); } ask(  "Do you agree?",  *() => alert("You agreed."),  () => alert("You canceled the execution.")* );`
